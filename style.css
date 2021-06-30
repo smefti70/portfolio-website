@@ -2,39 +2,55 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 h1{
     font-size: 50px;
 }
+
 h2{
     font-size: 40px;
     color: #FF3685;;
 }
+
+#center-aligned{
+    color: #4d14ad;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 h3{
     color: #4d14ad;
 }
+
 p{
     color: dimgray;
 }
+
 .name-highlight{
     color: #FF3685;
 }
+
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
+
 .half-width img{
     width: 100%;
 }
+
 .top-banner{
     background-image: url(images/topBanner.png);
     background-repeat: no-repeat;
 }
+
 section{
     height: 500px;
     padding-bottom: 150px;
 }
+
 .link-button{
     color: white;
     font-weight: 700;
@@ -43,8 +59,32 @@ section{
     background-image: linear-gradient(45deg, #ec8cb2,#FF2D80);
     padding: 10px 20px;
 }
+
 .dream-area{
     background-image: url("images/dreamBackground.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, lightsalmon);
+    border-image-slice: 1;
+}
+
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
