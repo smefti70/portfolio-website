@@ -5,6 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+    color: #FF3685;;
+}
+h3{
+    color: #4d14ad;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: #FF3685;
 }
@@ -23,6 +33,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     color: white;
@@ -31,4 +42,9 @@ section{
     border-radius: 5px;
     background-image: linear-gradient(45deg, #ec8cb2,#FF2D80);
     padding: 10px 20px;
+}
+.dream-area{
+    background-image: url("images/dreamBackground.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
